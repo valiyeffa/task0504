@@ -1,0 +1,73 @@
+*{
+    text-align: center;
+}
+
+.header span{
+    font-size: 45px;
+    color: rgba(73, 72, 72, 0.7);
+}
+
+.header p{
+    color: rgb(73, 72, 72, 0.7);
+    font-size: 18px;
+    margin: 20px;
+}
+
+.header span b{
+    font-size: 35px;
+    background-color: red;
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.header span b:hover{
+    color: black;
+}
+
+.header b ,a {
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  font-style: normal;
+  
+}
+
+.header .selectionbar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.header .selectionbar > div a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    font-size: 22px;
+}
+
+.header .selectionbar > div a:hover{
+    background-color: gray;
+    color: black;
+}
+
+.photos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photos img{
+    width: 370px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.521);
+    border-radius: 6px;
+}
+
+.photos img:hover{
+    background-color: bisque;
+    opacity: 0.3;
+}
